@@ -1,0 +1,39 @@
+.works{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.work{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #262934;
+  width: 100%;
+  padding: 20px 0px;
+}
+.work.dark{
+  background-color: #262934;
+  color: white;
+}
+
+.app-tech-logos{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.title{
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.desc{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+#axie-fellowship-app{
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}

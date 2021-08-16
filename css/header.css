@@ -1,0 +1,67 @@
+@media (max-width:600px){
+  .header-two{
+    display: flex;
+    background-color: #262934;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.header{
+  display: flex;
+  background-color: #262934;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-shadow: 0px 1px 5px 2px black;
+}
+
+.header-one{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header-two{
+  background-color: #262934;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo{
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav{
+  margin-top: 4px;
+}
+.nav a{
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 15px;
+  text-align: right;
+}
+
+#profile-picture{
+  padding:20px;
+  margin-right: 30px;
+  height:200px;
+  border-radius: 50%;
+}
+
+#tech-logos{
+  width: 60%;
+}
+
+#profile-name{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.profile-desc{
+  font-size: 16px;
+}
