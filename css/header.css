@@ -7,6 +7,24 @@
     justify-content: center;
     text-align: center;
   }
+  .logo{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nav a{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 15px;
+    text-align: right;
+  }
+  #profile-name{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-desc{
+    font-size: 12px;
+  }
 }
 
 .header{

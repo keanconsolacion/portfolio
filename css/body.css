@@ -1,3 +1,12 @@
+@media only screen and (max-width: 600px) {
+  /*For mobile phones*/
+  .video{
+    height: 350px;
+    width: 350px;
+    margin: 10px
+  }
+}
+
 .works{
   display: flex;
   flex-direction: row;
@@ -29,11 +38,11 @@
 }
 .desc{
   font-size: 18px;
+  width: 60%;
+  margin: auto;
   padding-bottom: 20px;
 }
 
-.video{
-  height: 700px;
-  width: 700px;
-  margin: 10px
+.tech{
+  font-weight: 600;
 }
