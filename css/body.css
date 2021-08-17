@@ -46,3 +46,13 @@
 .tech{
   font-weight: 600;
 }
+
+.vts{
+  height: 80%;
+  width: 80%;
+  margin:20px;
+}
+
+.vts img{
+  box-shadow: 2px 2px white;
+}
